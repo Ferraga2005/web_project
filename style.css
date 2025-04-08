@@ -1,0 +1,49 @@
+h1{
+	color: blue;
+	font-size: 40px;
+	text-align: center;
+}
+
+body{
+	text-align: center;
+	background-color: #ccffff;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	background-color: cyan;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	float: left;
+	text-align: center;
+	padding: 20px;
+	color: darkblue;
+	font-size: 30px;
+}
+
+li a:hover{
+	color: cyan;
+	background-color: darkblue;
+}
+
+img.social:hover{
+	opacity: .50;
+}
+div.section{
+	display: block;
+	background-color: lightcyan ;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
